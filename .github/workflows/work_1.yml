@@ -4,7 +4,5 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      runs-on: ubuntu-latest
-      steps:
-      - name: Print Something
-        run: echo "hola Pitaya!"
+    - name: Print Something
+      run: echo "hola Pitaya!"
